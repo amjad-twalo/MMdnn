@@ -27,7 +27,7 @@ class PytorchParser(Parser):
     'onnx::Concat': 'Concat',
     'onnx::Relu': 'Relu',
     'onnx::Tanh': 'Tanh',
-
+    'aten::max_pool2d': 'MaxPool2d',
 
     # TODO
     # 'max_pool2d': convert_maxpool,
